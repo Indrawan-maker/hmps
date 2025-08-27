@@ -5,7 +5,8 @@ export default function Button({ icon, href, text }) {
         target="_blank"
             rel="noopener noreferrer"
             href={href}>
-        <div className="rounded-md border border-black shadow-[8px_8px_0px_black] hover:shadow-[2px_2px_0px_black] hover:translate-y-1 transition h-16 w-110">
+        <div className="rounded-md border border-black shadow-[8px_8px_0px_black] 
+        hover:shadow-[2px_2px_0px_black] hover:translate-y-1 transition h-16 w-66 -ml-4 md:ml-0 md:w-110">
             <div className="flex items-center w-full px-6 relative">
             <div className="mt-3">
                 {icon}

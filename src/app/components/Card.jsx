@@ -46,11 +46,11 @@ export default function Card() {
                         </a>
                     </nav>
                     <section className='grid items-center justify-center mt-12'>
-                        <div className='w-24 h-24 flex justify-center items-center ml-42'>
+                        <div className='w-24 h-24 flex justify-center items-center ml-18 md:ml-42'>
                             <Image className='w-full h-full object-cover flex items-center justify-center self-center'
                                 src={logo} alt="logo sistem informasi" />
                         </div>
-                        <div className='mt-8 grid items-center justify-center'>
+                        <div className='mt-8 grid items-center justify-center -ml-2 md:ml-0'>
                             <h1 className='font-extrabold text-xl text-center tracking-widest'>HMPS SI</h1>
                             <div className='mt-1 '>
                                 <h4 className='font-extrabold text-sm text-center tracking-widest'>Kabinet Dhirgika</h4>
