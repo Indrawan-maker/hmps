@@ -34,7 +34,7 @@ export default function Card() {
     ]
     return (
         <main className="p-0 md:p-8 flex justify-center items-center">
-            <main className="w-120 h-220 bg-white rounded-3xl">
+            <main className="w-140 h-220 bg-white rounded-md md:rounded-2xl">
                 <div className="w-full h-full p-6">
                     <nav className="w-full h-12 cursor-pointer">
                         <a href="https://github.com/Indrawan-maker"
