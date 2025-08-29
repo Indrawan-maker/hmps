@@ -11,7 +11,7 @@ export default function Card() {
     const items = [
         {
             icon: <div className='w-10 h-10'><Image className='w-full h-full' src={logo} alt='Jurusan Sistem Informasi' /></div>,
-            href: "https://google.com/",
+            href: "https://hmpssi.vercel.app",
             text: "Website"
         },
 
